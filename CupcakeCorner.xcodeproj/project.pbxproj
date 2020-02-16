@@ -15,6 +15,7 @@
 		35911EF623F804120099B75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35911EF423F804120099B75D /* LaunchScreen.storyboard */; };
 		35CC31BE23F93BCB0083CA8E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC31BD23F93BCB0083CA8E /* Order.swift */; };
 		35CC31C023F93FEF0083CA8E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC31BF23F93FEF0083CA8E /* AddressView.swift */; };
+		35CC31C223F9412C0083CA8E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC31C123F9412C0083CA8E /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		35911EF723F804120099B75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35CC31BD23F93BCB0083CA8E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		35CC31BF23F93FEF0083CA8E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		35CC31C123F9412C0083CA8E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,10 @@
 			children = (
 				35911EE923F804110099B75D /* AppDelegate.swift */,
 				35911EEB23F804110099B75D /* SceneDelegate.swift */,
-				35911EED23F804110099B75D /* ContentView.swift */,
 				35CC31BD23F93BCB0083CA8E /* Order.swift */,
+				35911EED23F804110099B75D /* ContentView.swift */,
 				35CC31BF23F93FEF0083CA8E /* AddressView.swift */,
+				35CC31C123F9412C0083CA8E /* CheckoutView.swift */,
 				35911EEF23F804120099B75D /* Assets.xcassets */,
 				35911EF423F804120099B75D /* LaunchScreen.storyboard */,
 				35911EF723F804120099B75D /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				35911EEA23F804110099B75D /* AppDelegate.swift in Sources */,
 				35911EEC23F804110099B75D /* SceneDelegate.swift in Sources */,
+				35CC31C223F9412C0083CA8E /* CheckoutView.swift in Sources */,
 				35CC31BE23F93BCB0083CA8E /* Order.swift in Sources */,
 				35911EEE23F804110099B75D /* ContentView.swift in Sources */,
 				35CC31C023F93FEF0083CA8E /* AddressView.swift in Sources */,

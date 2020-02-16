@@ -14,6 +14,10 @@ class Order: ObservableObject {
     @Published var type = 0
     @Published var quantity = 3
     
+    @Published var name = ""
+    @Published var streetAddress = ""
+    @Published var city = ""
+    @Published var zip = ""
     
     @Published var extraFrosting = false
     @Published var addSprinkles = false
@@ -24,5 +28,13 @@ class Order: ObservableObject {
                 addSprinkles = false
             }
         }
+    }
+    
+    var hasValidAddress: Bool {
+        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+            return false
+        }
+        
+        return true
     }
 }
